@@ -1,0 +1,48 @@
+.login {
+  margin: auto;
+  /* opacity: 0.3; */
+  background-color: #ffffff24;
+  border-radius: 20%;
+  width: 400px;
+  height: 300px;
+}
+h1 {
+  text-align: center;
+}
+div.log-in form {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+.submit {
+  width: 200px;
+  height: 30px;
+  background: rgb(201, 56, 88);
+  background: radial-gradient(
+    circle,
+    rgba(201, 56, 88, 1) 2%,
+    rgba(53, 233, 128, 1) 62%,
+    rgba(201, 20, 157, 1) 100%
+  );
+}
+body {
+  background-image: url("https://i.pinimg.com/originals/11/c0/0c/11c00c702d268a5a7789e801f995fbcc.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.input {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  border-bottom: 2px solid black;
+  color: white;
+}
+.input:focus {
+  /* border: none; */
+  outline: none;
+  /* border-bottom: 2px solid black; */
+}
+::placeholder {
+  color: white;
+}
